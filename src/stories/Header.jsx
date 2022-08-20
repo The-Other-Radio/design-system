@@ -1,13 +1,11 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 
-import { Button } from './Button';
 import PlayIcon from './assets/Play.svg';
 import VolumeIcon from './assets/Volume.svg';
 import MenuIcon from './assets/Menu.svg';
 import './header.css';
 
-export const Header = ({ }) => (
+export const Header = () => (
   <header>
     <div className="wrapper">
       <div className="nav-top">
@@ -30,11 +28,3 @@ export const Header = ({ }) => (
     </div>
   </header>
 );
-
-Header.propTypes = {
-
-};
-
-Header.defaultProps = {
-  user: null,
-};
